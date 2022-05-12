@@ -8,6 +8,7 @@
   "client": [
     "ExpertMixin"
   ],
+  "server": [],
   "injectors": {
     "defaultRequire": 1
   }
