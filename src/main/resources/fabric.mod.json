@@ -1,29 +1,30 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "expert",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Expert Mode",
+  "description": "Makes hard mode actually hard!",
   "authors": [
-    "Me!"
+    "FallenAxon"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/JuanPablo2655/expert-mode",
+    "sources": "https://github.com/JuanPablo2655/expert-mode",
+    "issues": "https://github.com/JuanPablo2655/expert-mode/issues"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/expert/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.fabricmc.expertmode.Main"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "expert.mixins.json"
   ],
 
   "depends": {
